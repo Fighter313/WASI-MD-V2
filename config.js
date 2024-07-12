@@ -64,7 +64,7 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐈𝐒𝐑𝐀𝐑★𝐔𝐌𝐀𝐑𝐈-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
-  packname: process.env.PACK_NAME || "♥️",
+  packname: process.env.PACK_NAME || "★",
   botname: process.env.BOT_NAME || "𝐈𝐒𝐑𝐀𝐑★𝐔𝐌𝐀𝐑𝐈-𝐌𝐃-𝐕2",
   ownername: process.env.OWNER_NAME || "𝐈𝐒𝐑𝐀𝐑★𝐔𝐌𝐀𝐑𝐈",
   errorChat: process.env.ERROR_CHAT || "923308363433",
@@ -79,9 +79,7 @@ module.exports = {
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
-  LANG: (process.env.THEME || "WASI").toUpperCase(),
-};
-global.rank = "updated";
+  LANG: (process.env.THEME || "ISRAR UMARI").toUpperCase()";
 global.isMongodb = false;
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
